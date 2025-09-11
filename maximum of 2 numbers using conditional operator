@@ -1,0 +1,10 @@
+//prg to find maximum of 2 numbers using conditional operator.
+//developed by Ramendra date:11/09/2025
+#include <stdio.h>
+void main()
+{
+    int a, b;
+    printf("Enter the two numbers\n");
+    scanf("%d%d",&a,&b);
+    printf("The maximum number of %d and %d is = %d",a,b,a>b?a:b);
+}
