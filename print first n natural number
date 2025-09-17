@@ -1,0 +1,13 @@
+//program to print first n natural number
+#include<stdio.h>
+void main()
+{
+    int n;
+    printf("enter the value of n\n");
+    scanf("%d",&n);
+    for(int i=1;i<=n;)
+    {
+        printf("%d\n",i);
+        i++;
+    }
+}
