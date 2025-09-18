@@ -1,0 +1,14 @@
+//prg to print even number from 1-20.
+# include<stdio.h>
+void main()
+{
+    int i=1;
+    for(;i<=20;)
+    {
+        if(i%2==0)
+        {
+            printf("%d\n", i);
+        }
+        i++;
+        }
+}
